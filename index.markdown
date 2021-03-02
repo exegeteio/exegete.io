@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Exegete.IO
+description: Who is Exegete?  What do they do?
 ---
 
 ## About
