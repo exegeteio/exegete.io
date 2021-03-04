@@ -1,0 +1,49 @@
+---
+title:  100 Days of Code - Wait.  What?
+page:   post
+layout: default
+date:   2021-01-01
+categories: onehundreddays
+---
+
+100 days of Blog is something of a new years resolution for me.  I like
+writing, I like sharing my journey as a developer, but I have not written
+as many posts as I would like. **#100DaysOfBlog** is me trying to fix that.
+
+**Heads up!**
+I do not intend this as a starter for someone who is new to development.
+This topic has been tackled by much better writers than I, so I would
+suggest starting there if you are new to development.  I plan to start the
+articles focusing on Ruby, so if you're interested in learning Ruby, I
+began that part of my journey with
+[Programming Ruby](https://pragprog.com/titles/ruby/programming-ruby-2nd-edition/){:title="Programming Ruby by Dave Thomas with Chad Fowler and Andy Hunt"}.
+As always, your mileage may vary.
+
+## Personal Journey
+
+I am an entirely self-taught programmer, starting in a computer lab in high
+school when I was given an independent study, intending to write plugins for
+[Quake](https://en.wikipedia.org/wiki/Quake_(video_game)){:title="Quake (video game) article on Wikipedia"}
+I thought I could buy a Microsoft book on C++ and be productive by the end of
+the year.  Oh, to be young and naive again.  At the same time, I was exposed
+to Visual Basic while working at a local computer repair shop.
+After finishing high school I ran into the Perl programming language, and
+actually built useful scripts for automating my FreeBSD personal servers.
+
+My experience in Perl and Visual Basic landed me a job with a small company
+writing software for bottled-water home delivery.  The newly released Windows
+CE handheld computers, would change the industry!  Spoiler alert:  It didn't,
+and the company went under.
+
+From there, I picked up a part time job "finishing" a partially completed
+Perl application for selling insurance online.  I've been working on that
+software (or versions there-of) for the last 17 years.  In the mean time,
+I've strove to learn a new language every year, and usually a new web
+framework at the same time. Eventually, I've landed on Ruby on Rails as
+my goto web stack.
+
+I continue to learn, read, and evolve, but I have not yet found a compelling
+language and framework to pull me away from Rails, but I keep looking.
+That has lead me to watching live programming streams, and added a drive to
+give back to the community that helped me get where I am, and hopefully share
+some of the wonder I've found in programming.

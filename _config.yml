@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://exegete.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: exegeteio
 github_username:  exegeteio
+permalink: /:year/:month/:day/:title/
 
 # Build settings
 # theme: minima
