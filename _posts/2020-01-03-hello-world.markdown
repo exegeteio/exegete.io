@@ -7,7 +7,7 @@ categories: onehundreddays ruby
 ---
 
 **Heads up!** This is a part of the
-[#100DaysOfBlog series](/100days/){:title="100 Days of Blog series on Exegete.IO"}.
+[#100DaysOfBlog series](/categories/100days/){:title="100 Days of Blog series on Exegete.IO"}.
 {:class="nes-container is-rounded centered"}
 
 Ruby, like most imperative languages are fairly simple to get started with.
