@@ -5,10 +5,51 @@
     Designed, built, and maintained applications for selling insurance policies
     online for a variety of products.  The applications were featured by
     carriers such as Allstate, Geico, and Progressive.
+  roles:
+    - title: Lead Developer
+      timeframe: "since 2003"
+      description: |
+        In my role as Lead Developer, I worked to advance both retail and
+        wholesale operations to offer the best user experience when purchasing
+        insurance online.  I continually strive to keep the company at the
+        forefront of technology best practices and processes, while still
+        delivering the best experience to future and legacy customers.
 
-- title: Lead Developer
-  timeframe: 2001 - 2003
-  location: Taylor AZ
-  description: |
-    Built applications for bottled-water delivery drivers on newly available
-    Windows CE mobile devices using Microsoft's development environment.
+        Over my tenure, I developed and launched nineteen unique insurance
+        products in various languages and frameworks.
+      skills:
+        - name: Ruby / Rails
+          experience: 6 years
+        - name: Perl
+          experience: 20 years
+        - name: Javascript
+          experience: 14 years
+        - name: Python 2.7
+          experience: 3 years
+    - title: Systems Administrator
+      timeframe: "since 2004"
+      description: |
+        In my role as Systems Administrator, I was responsible for ensuring the
+        stability of all technology systems within the company.  This included
+        transitioning from an on-premesis data-center to a co-lcated remote
+        data-center, and eventually to cloud hosting with Azure and AWS.  Part
+        of this role was ensuring the performance, reliability, and resiliency,
+        of the company's databases.
+      skills:
+        - name: Docker
+          experience: 6 years
+        - name: Kubernetes
+          experience: 3 years
+        - name: Amazon Web Services (AWS)
+          experience: 6 years
+        - name: PostgreSQL
+          experience: 3 years
+        - name: MySQL
+          experience: 17 years
+    - title: Project Manager
+      timeframe: "since 2020"
+      description: |
+        In my role as a Project Manager, I lead teams of designers, developers,
+        and systems administrators.  I was responsible for organizing new
+        teams, and restructuring existing teams in order to better meet the
+        business's needs.

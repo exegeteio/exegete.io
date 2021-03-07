@@ -36,7 +36,9 @@ article {
   max-width: 960px;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   text-align: center;
 }
 
@@ -71,6 +73,31 @@ header {
 pre,
 code {
   font-family: "Courier New", Courier, monospace !important;
+}
+
+section {
+  &.skills {
+    margin-left: 1rem;
+  }
+  &.role {
+    h3 span {
+      display: block;
+      font-size: 0.8rem;
+      font-style: italic;
+      font-weight: initial;
+    }
+  }
+}
+
+article {
+  &.experience {
+    h2 span {
+      display: block;
+      font-size: 0.8rem;
+      font-style: italic;
+      font-weight: initial;
+    }
+  }
 }
 
 ul,

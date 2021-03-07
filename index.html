@@ -1,0 +1,39 @@
+---
+layout: default
+title: Exegete.IO
+description: Who is Exegete?  What do they do?
+---
+
+<h2>About</h2>
+<p>
+  By day, a developer, sys admin, and manager working in insurance since 2003.
+  By night, a father, a cyclist, a motorcyclist, and a general-purpose nerd.
+</p>
+
+{% for exp in site.data.experience %}
+
+<article class="experience">
+  <h2>
+    {{exp.title}} - {{exp.location}}
+    <span>({{exp.timeframe}})</span>
+  </h2>
+  <section>{{ exp.description | markdownify }}</section>
+
+  {% for role in exp.roles %}
+  <section class="role">
+    <h3>{{role.title}} <span>{{role.timeframe}}</span></h3>
+    <section class="experience">{{ role.description | markdownify }}</section>
+    {% if role.skills %}
+    <section class="skills">
+      <h4>Skills</h4>
+      <ul>
+        {% for skill in role.skills %}
+        <li>{{skill.name}} - {{skill.experience}}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+  </section>
+  {% endfor %}
+</article>
+{% endfor %}
