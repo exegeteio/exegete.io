@@ -30,6 +30,8 @@ permalink: /:year/:month/:day/:title/
 
 # Build settings
 # theme: minima
+sass:
+  style: compressed
 plugins:
   - jekyll-feed
 
