@@ -4,7 +4,6 @@
 
 @import "nes";
 @import "press_start_font";
-@import "highlight";
 
 // Main styles.
 
@@ -34,9 +33,18 @@ h1 {
 
 header {
   margin-bottom: 2rem;
-  section {
-    float: right;
-    text-align: right;
+  nav {
+    display: flex;
+    justify-content: space-between;
+
+    section.socials {
+      float: right;
+      text-align: right;
+    }
+
+    section.links {
+      display: inline-block;
+    }
   }
 }
 
