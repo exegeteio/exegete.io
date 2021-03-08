@@ -9,14 +9,16 @@
     - title: Lead Developer
       timeframe: "since 2003"
       description: |
-        In my role as Lead Developer, I worked to advance both retail and
-        wholesale operations to offer the best user experience when purchasing
-        insurance online.  I continually strive to keep the company at the
-        forefront of technology best practices and processes, while still
-        delivering the best experience to future and legacy customers.
+        In my role as Lead Developer, I advanced both retail and wholesale
+        operations to offer the best possible user experience when purchasing
+        insurance online.  I continually strove to keep the company at the
+        forefront of technology best practices and processes, while delivering
+        the best experience to future and legacy customers.
 
         Over my tenure, I developed and launched nineteen unique insurance
-        products in various languages and frameworks.
+        products in various languages and frameworks, based on the demands of
+        the product.  The applications encorporated all aspects of the
+        business, from COVID informational websites to monthly accounting.
       skills:
         - name: Ruby / Rails
           experience: 6 years
@@ -32,9 +34,18 @@
         In my role as Systems Administrator, I was responsible for ensuring the
         stability of all technology systems within the company.  This included
         transitioning from an on-premesis data-center to a co-lcated remote
-        data-center, and eventually to cloud hosting with Azure and AWS.  Part
-        of this role was ensuring the performance, reliability, and resiliency,
-        of the company's databases.
+        data-center, and eventually to cloud hosting with Azure and AWS.
+
+        I also implemented a complete architecture migration from AWS EC2
+        instances to Kubernetes, cutting the AWS spend by 50%.  This change 
+        also improved uptime, resiliency, and release velocity, while
+        simplifying the overall architecture.  This architecture also increased
+        uptime to 99.99% since deployment.
+
+        This role encompassed not only researching, designing, implementing,
+        and testing the systems, but also 24 x 7 x 365 on-call support.
+        Additionally, I was responsible for ensuring the design and performance
+        of the databases backing the applications and websites.
       skills:
         - name: Docker
           experience: 6 years
@@ -42,10 +53,10 @@
           experience: 3 years
         - name: Amazon Web Services (AWS)
           experience: 6 years
-        - name: PostgreSQL
-          experience: 3 years
         - name: MySQL
           experience: 17 years
+        - name: PostgreSQL
+          experience: 3 years
     - title: Project Manager
       timeframe: "since 2020"
       description: |
