@@ -3,8 +3,13 @@
   location: Flagstaff AZ
   description: |
     Designing, building, and maintaining applications for selling insurance
-    policies online for a variety of products.  The applications were featured
-    by carriers such as Allstate, Geico, and Progressive.
+    policies online for a variety of products. This position continually
+    offers challenges by offering multi-tenant Software as a Service (SaaS)
+    applications, with thousands of unique tenants. Each tenant could have its
+    own template, verbiage, and even functionality. In addition, many tenants
+    had specific browser requirements which restricted technology choices
+    across the applications. The applications were featured by carriers such as
+    Allstate, Geico, and Progressive.
   roles:
     - title: Lead Developer
       timeframe: "since 2003"
