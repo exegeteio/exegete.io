@@ -17,7 +17,7 @@
 
         Over my tenure, I developed and launched nineteen unique insurance
         products in various languages and frameworks, based on the demands of
-        the product.  The applications encorporated all aspects of the
+        the product.  The applications incorporated all aspects of the
         business, from COVID informational websites to monthly accounting.
       skills:
         - name: Ruby / Rails
@@ -33,7 +33,7 @@
       description: |
         In my role as Systems Administrator, I was responsible for ensuring the
         stability of all technology systems within the company.  This included
-        transitioning from an on-premesis data-center to a co-lcated remote
+        transitioning from an on-premises data-center to a co-located remote
         data-center, and eventually to cloud hosting with Azure and AWS.
 
         I also implemented a complete architecture migration from AWS EC2
@@ -60,7 +60,11 @@
     - title: Project Manager
       timeframe: "since 2020"
       description: |
-        In my role as a Project Manager, I lead teams of designers, developers,
-        and systems administrators.  I was responsible for organizing new
-        teams, and restructuring existing teams in order to better meet the
-        business's needs.
+        In my role as a Project Manager, I helped recover a struggling team of
+        designers, developers, and systems administrators, to be reach their
+        full potential.  After only a few weeks, the team was hitting deadlines
+        and shipping mission critical changes, without resorting to "crunch".
+
+        In light of my success, I was also assigned to reinvigorate other
+        struggling teams, helping to successfully align the teams' velocity
+        with the requirements provided from upper management.
