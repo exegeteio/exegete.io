@@ -2,16 +2,16 @@
   timeframe: 2003 - Current
   location: Flagstaff AZ
   description: |
-    Designed, built, and maintained applications for selling insurance policies
-    online for a variety of products.  The applications were featured by
-    carriers such as Allstate, Geico, and Progressive.
+    Designing, building, and maintaining applications for selling insurance
+    policies online for a variety of products.  The applications were featured
+    by carriers such as Allstate, Geico, and Progressive.
   roles:
     - title: Lead Developer
       timeframe: "since 2003"
       description: |
-        In my role as Lead Developer, I advanced both retail and wholesale
+        In my role as Lead Developer, I advance both retail and wholesale
         operations to offer the best possible user experience when purchasing
-        insurance online.  I continually strove to keep the company at the
+        insurance online.  I continually strive to keep the company at the
         forefront of technology best practices and processes, while delivering
         the best experience to future and legacy customers.
 
@@ -31,20 +31,20 @@
     - title: Systems Administrator
       timeframe: "since 2004"
       description: |
-        In my role as Systems Administrator, I was responsible for ensuring the
-        stability of all technology systems within the company.  This included
+        In my role as Systems Administrator, I am responsible for ensuring the
+        stability of technology systems within the company.  This includes
         transitioning from an on-premises data-center to a co-located remote
         data-center, and eventually to cloud hosting with Azure and AWS.
 
         I also implemented a complete architecture migration from AWS EC2
-        instances to Kubernetes, cutting the AWS spend by 50%.  This change 
+        instances to Kubernetes, cutting the AWS bills by 50%.  This change 
         also improved uptime, resiliency, and release velocity, while
         simplifying the overall architecture.  This architecture also increased
         uptime to 99.99% since deployment.
 
-        This role encompassed not only researching, designing, implementing,
+        This role encompasses not only researching, designing, implementing,
         and testing the systems, but also 24 x 7 x 365 on-call support.
-        Additionally, I was responsible for ensuring the design and performance
+        Additionally, I am responsible for ensuring the design and performance
         of the databases backing the applications and websites.
       skills:
         - name: Docker
@@ -66,5 +66,5 @@
         and shipping mission critical changes, without resorting to "crunch".
 
         In light of my success, I was also assigned to reinvigorate other
-        struggling teams, helping to successfully align the teams' velocity
-        with the requirements provided from upper management.
+        struggling teams, helping to successfully align the teams' output with
+        the requirements provided from upper management.
