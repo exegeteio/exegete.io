@@ -16,7 +16,8 @@
   <body class="{{ page.class }}">
     {% include header.html %}
     <main>
-      <h1>{{ page.title}}</h1>
+      <h1>{{ page.title }}</h1>
+      <p>Below is a list of micro-blogs tagged with "{{ page.title }}".</p>
       <ul class="posts">
         {% for post in page.posts %}
         <li>
