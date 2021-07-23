@@ -22,7 +22,7 @@ Here's the kicker, though.  If the validation succeeds, the `$result` variable
 does not exist.  "So what?", I hear you say.  Imagine writing a web form for
 this.  You cannot get a valid `$result` unless errors are present, so you
 cannot, for example, send a passing `$result` to the form template.  Now you
-need two different forms, one with `$result` and one with out.  🤢
+need two different forms, one with `$result` and one without.  🤢
 
 ---
 
