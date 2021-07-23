@@ -26,6 +26,5 @@ need two different forms, one with `$result` and one without.  🤢
 
 ---
 
-**Yeah, the title is a bit click-bait-y.  This isn't really a "gotcha" (it is
-right there in the docs, after all).**
-
+*Yeah, the title is a bit click-bait-y.  This isn't really a "gotcha" (it is
+right there in the docs, after all).*
