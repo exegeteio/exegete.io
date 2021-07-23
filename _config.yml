@@ -34,6 +34,11 @@ sass:
   style: compressed
 plugins:
   - jekyll-feed
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - tags
 
 # Exclude from processing.
 # The following items will not be processed, by default.
