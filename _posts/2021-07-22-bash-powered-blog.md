@@ -25,12 +25,9 @@ posts about a specific topic are gathered by tag.  Now, I can have a single
 click I can share with everything I know about a topic.  Or all the topics I
 have learned.  👍
 
-Ok, that's all good, but how does it work?  Well, let's write a quick shell
-script:
+Ok, that's all good, but it is a lot of work to find the right file to edit and
+start editing, right?  Nope!  Bash to the rescue!  Attached is the script, but
+can check for updates in my [dotfiles](https://github.com/exegeteio/dotfiles)
+repo.
 
-# TODO:  Put the bash script here!
-
-So what does this do?
-
-1. Checks that a directory exists in the `$NOTES_PATH` environment variable.
-1. 
+<script src="https://gist.github.com/exegeteio/25bc37887f04e9dfc1f997a96eafded2.js"></script>
