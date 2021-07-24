@@ -8,9 +8,9 @@ tags:
 
 Sometimes we need to read from the terminal in an app. Easy:
 
-{% highlight c# %}
+```c#
 WriteLine();
 string line = ReadLine();
 ConsoleKeyInfo key = ReadKey();
 Write();
-{% endhighlight %}
+```
