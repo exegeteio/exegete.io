@@ -3,9 +3,10 @@ layout: default
 title: Reading from the Console with C#
 tags:
   - c#
+  - cli
 ---
 
-Sometimes we need to read from the terminal in an app.  Easy:
+Sometimes we need to read from the terminal in an app. Easy:
 
 {% highlight c# %}
 WriteLine();
