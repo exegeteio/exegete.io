@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: Is iPad only dev possible?
 tags:
   - hardware

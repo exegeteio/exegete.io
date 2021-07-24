@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: Reading from the Console with C#
 tags:
   - c#
