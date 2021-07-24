@@ -33,6 +33,16 @@ footer {
 }
 
 header,
+h1,
+h2,
+h3 {
+  text-shadow: 2px 2px #eee;
+  .nes-icon {
+    box-shadow: 2px 2px #eee;
+  }
+}
+
+header,
 footer,
 main,
 article {
