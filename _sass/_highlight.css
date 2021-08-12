@@ -37,19 +37,19 @@
   color: #cccccc;
 } /* Punctuation */
 .highlight .ch {
-  color: #000080;
+  color: #1111ff;
 } /* Comment.Hashbang */
 .highlight .cm {
-  color: #000080;
+  color: #1111ff;
 } /* Comment.Multiline */
 .highlight .cp {
-  color: #000080;
+  color: #1111ff;
 } /* Comment.Preproc */
 .highlight .cpf {
-  color: #000080;
+  color: #1111ff;
 } /* Comment.PreprocFile */
 .highlight .c1 {
-  color: #000080;
+  color: #1111ff;
 } /* Comment.Single */
 .highlight .cs {
   color: #cd0000;
@@ -66,7 +66,7 @@
   color: #ff0000;
 } /* Generic.Error */
 .highlight .gh {
-  color: #000080;
+  color: #1111ff;
   font-weight: bold;
 } /* Generic.Heading */
 .highlight .gi {
@@ -76,7 +76,7 @@
   color: #888888;
 } /* Generic.Output */
 .highlight .gp {
-  color: #000080;
+  color: #1111ff;
   font-weight: bold;
 } /* Generic.Prompt */
 .highlight .gs {
