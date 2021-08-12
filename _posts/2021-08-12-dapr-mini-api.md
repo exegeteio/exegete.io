@@ -24,7 +24,7 @@ if you'd like to clone and/or play.
 
 ## Publisher
 
-```C#
+```c#
 var dapr = new DaprClientBuilder().Build();
 
 int currentCount = 0;
@@ -39,7 +39,7 @@ while (true)
 
 ## Subscriber
 
-```C#
+```c#
 // Decodes cloud events sent to the `MapPost` below.
 app.UseCloudEvents();
 // Adds an endpoint which tells Dapr where to send events from pubsub.
