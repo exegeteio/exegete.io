@@ -40,6 +40,7 @@ while (true)
 ## Subscriber
 
 ```c#
+// Removed the few lines of boilerplate and `using`.
 // Decodes cloud events sent to the `MapPost` below.
 app.UseCloudEvents();
 // Adds an endpoint which tells Dapr where to send events from pubsub.
@@ -52,16 +53,16 @@ var dapr = new DaprClientBuilder().Build();
 // events are fired.
 app.MapGet("/", async () => await dapr.GetStateAsync<int>("statestore", "counter"));
 
-// [Topic(...)] tells Dapr to subscribe to the given topic, and call this
+// `.WithTopic(...)` tells Dapr to subscribe to the given topic, and call this
 // when a value is published.  This still works when posting directly to the
 // endpoint!  😳
-app.MapPost("/counter", [Topic("pubsub", "counter")] async ([FromBody] int counter) =>
+app.MapPost("/counter", async ([FromBody] int counter) =>
 {
     var newCounter = counter * counter;
     Console.WriteLine($"Updating counter: {newCounter}");
     await dapr.SaveStateAsync("statestore", "counter", newCounter);
     return Results.Accepted("/", newCounter);
-});
+}).WithTopic("pubsub", "counter");
 
 app.Run();
 ```
