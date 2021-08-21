@@ -58,7 +58,8 @@ Server: gunicorn/19.9.0
 ```
 
 JSON is auto formatted and syntax highlighted.  Pretty colours and human
-readable output.
+readable output.  The code highlighting on my blog does NOT do this justice.
+Check it out for yourself.
 
 Now for something that's just downright cool:
 
