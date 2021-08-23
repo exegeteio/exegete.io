@@ -8,7 +8,7 @@ tags:
 Casting is changing the type of a variable.
 
 Converters for System types can be found in `System.Convert`. Also includes
-`ToBase64String` and `ToBase64String`.
+`ToBase64String`.
 
 C# does that weird thing where rounding is different for evan and odd numbers,
 unless you explicitly tell it how to round with `Math.Round` or similar. Called
