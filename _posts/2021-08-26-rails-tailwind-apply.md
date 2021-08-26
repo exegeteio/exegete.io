@@ -36,7 +36,7 @@ $ bin/rails g controller root root
 With this done, let's write some CSS with Tailwind.  Let's pop open
 `app/javascript/stylesheets/application.scss` and add:
 
-```css
+```scss
 h1 {
   @apply p-2 mb-2 text-2xl text-center bg-blue-500 text-white shadow-md;
 }
