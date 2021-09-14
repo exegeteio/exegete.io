@@ -49,6 +49,7 @@ app.UseEndpoints(endpoints => endpoints.MapSubscribeHandler());
 
 var dapr = new DaprClientBuilder().Build();
 
+// Pull state from Dapr.
 // Minimal API will JSON encode the int for the browser.  May be blank until
 // events are fired.
 app.MapGet("/", async () => await dapr.GetStateAsync<int>("statestore", "counter"));
@@ -60,6 +61,7 @@ app.MapPost("/counter", async ([FromBody] int counter) =>
 {
     var newCounter = counter * counter;
     Console.WriteLine($"Updating counter: {newCounter}");
+    // Save state out to a data store.  We don't care which one!
     await dapr.SaveStateAsync("statestore", "counter", newCounter);
     return Results.Accepted("/", newCounter);
 }).WithTopic("pubsub", "counter");
