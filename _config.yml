@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Exegete.io
-email: exegete@hey.com
+email: contact@exegete.io
 description: >-
   Personal blog of a Ruby, Perl, and DevOps fan.
 baseurl: "" # the subpath of your site, e.g. /blog
