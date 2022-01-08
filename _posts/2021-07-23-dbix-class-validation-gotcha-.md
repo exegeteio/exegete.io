@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 title: DBIx::Class::Validation Gotcha!
 tags:
   - perl

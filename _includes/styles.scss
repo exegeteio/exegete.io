@@ -1,28 +1,16 @@
-@import "nes";
+// @import "nes";
+@import "simple";
 @import "highlight";
 
 $base-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
   Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
 // Main styles.
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-html {
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
 body {
   -webkit-font-smoothing: antialiased;
   font-display: swap;
   font-family: $base-font;
   font-size: 1.2rem;
-  margin: 1rem;
 }
 
 header,
@@ -32,69 +20,11 @@ footer {
   font-family: "press-start", $base-font;
 }
 
-header,
 h1,
 h2,
-h3 {
-  text-shadow: 2px 2px #eee;
-  .nes-icon {
-    box-shadow: 2px 2px #eee;
-  }
-}
-
-header,
-footer,
-main,
-article {
-  margin: 2rem auto;
-  max-width: 960px;
-}
-
-main {
-  & > article,
-  & > section {
-    box-shadow: 5px 5px 50px #eee;
-    padding: 1rem;
-  }
-}
-
-h1,
-h2,
-h3 {
-  text-align: center;
-}
-
-header {
-  margin-bottom: 2rem;
-  nav {
-    display: flex;
-    justify-content: space-between;
-
-    section.socials {
-      float: right;
-      text-align: right;
-    }
-
-    section.links {
-      display: inline-block;
-    }
-  }
-}
-
+h3,
 .centered {
   text-align: center;
-}
-
-.highlight {
-  & > pre {
-    padding: 1rem;
-  }
-  border-radius: 1rem;
-}
-
-pre,
-code {
-  font-family: "Courier New", Courier, monospace !important;
 }
 
 section {
@@ -129,35 +59,13 @@ ol {
 }
 
 footer {
+  border-image-slice: 1;
+  border-image-source: linear-gradient(90deg, #ccc, #108de0, #ccc);
+  border-top: 1px solid;
+  border: 0;
+  font-size: 0.75rem;
   margin-top: 1rem;
   padding-top: 1rem;
-  font-size: 0.75rem;
   text-align: center;
-  border: 0;
-  border-top: 1px solid;
-  border-image-source: linear-gradient(90deg, #ccc, #108de0, #ccc);
-  border-image-slice: 1;
 }
 
-ul.cloud {
-  list-style: none;
-  padding-left: 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  // line-height: 2.5rem;
-  li {
-    border-right: 1px solid #ccc;
-    &:last-child {
-      border-right: none;
-    }
-    a {
-      // color: #a33;
-      display: block;
-      padding: 0.25rem 1rem;
-      text-decoration: none;
-      position: relative;
-    }
-  }
-}

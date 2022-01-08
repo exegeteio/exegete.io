@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 title: Shape Up
 tags:
   - book

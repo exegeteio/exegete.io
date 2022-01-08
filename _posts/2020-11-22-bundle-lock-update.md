@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 title: Bundler - Gemfile.lock Update
 tags:
   - ruby

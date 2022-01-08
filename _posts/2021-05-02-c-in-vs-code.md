@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 title: "Warning: C# in VS Code"
 tags:
   - c#

@@ -30,3 +30,5 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 
 gem "jekyll-archives", "~> 2.2"
+
+gem "rake", "~> 13.0"

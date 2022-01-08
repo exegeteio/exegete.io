@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="{{ page.description }}" />
-    <link rel="stylesheet" href="/css/fonts.css" media="all" />
+    <link rel="stylesheet" href="/css/fonts.css" media="all" defer />
     <style type="text/css">
       {% capture include_to_scssify %}{% include styles.scss %}{% endcapture %}{{ include_to_scssify | scssify }}
     </style>
@@ -16,7 +16,6 @@
   <body class="{{ page.class }}">
     {% include header.html %}
     <main>
-      <h1>{{ page.title }}</h1>
       <p>Below is a list of micro-blogs tagged with "{{ page.title }}".</p>
       <ul class="posts">
         {% for post in page.posts %}

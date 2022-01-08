@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 title: Golang Flags Module
 tags:
   - go

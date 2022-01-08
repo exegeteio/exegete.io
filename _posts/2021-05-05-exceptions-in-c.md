@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 title: Exceptions in C#
 tags:
   - c#

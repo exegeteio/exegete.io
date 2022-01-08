@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 title: .NET CLI Code Generators
 tags:
   - c#

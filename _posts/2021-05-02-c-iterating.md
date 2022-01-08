@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 title: Iterating in C#
 tags:
   - c#

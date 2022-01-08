@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 title: Sneaky Security Test or Paranoid?
 tags:
   - security

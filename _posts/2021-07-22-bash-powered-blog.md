@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 title: Bash Powered Blog
 tag:
   - bash

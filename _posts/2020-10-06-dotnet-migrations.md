@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 title: Database Migrations
 tags:
   - c#

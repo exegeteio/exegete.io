@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 title: Casting Variables in C#
 tags:
   - c#

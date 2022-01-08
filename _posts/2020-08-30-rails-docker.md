@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 title: Docker for Rails development
 tags:
   - docker

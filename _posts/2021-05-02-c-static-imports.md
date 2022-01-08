@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 title: C# Static Imports
 tags:
   - c#

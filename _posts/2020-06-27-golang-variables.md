@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: default
 title: Variables
 tags:
   - go
