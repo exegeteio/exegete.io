@@ -5,11 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="{{ page.description }}" />
-    <link rel="stylesheet" href="/css/fonts.css" media="all" defer />
-    <style type="text/css">
-      {% capture include_to_scssify %}{% include styles.scss %}{% endcapture %}{{ include_to_scssify | scssify }}
-    </style>
     <link rel="canonical" href="{{ site.url }}{{ page.permalink }}" />
+    <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url  }}" media="all" />
+    <link rel="stylesheet" href="{{ '/css/font.css' | relative_url  }}" media="all" defer />
     <title>Exegete.io | {{ page.title }}</title>
   </head>
 
