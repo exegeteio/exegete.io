@@ -1,5 +1,5 @@
 {% if page.tags %}
-<section title="related" class="related centered">
+<section title="related" class="related centered small">
   {% assign tags = site.tags | sort %}
   {% for tag in tags %} {% if page.tags contains tag[0] %}
     <a href="/tag/{{ tag | first | slugify }}/">
