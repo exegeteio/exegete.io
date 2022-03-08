@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Exegete.io
+title: Exegete.IO
 email: contact@exegete.io
 description: >-
   Personal blog of a Ruby, Perl, and DevOps fan.
