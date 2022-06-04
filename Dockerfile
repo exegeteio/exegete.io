@@ -1,4 +1,4 @@
-FROM ruby:2.7.4-bullseye
+FROM ruby:3.1.2-bullseye
 
 ENV BINDING=0.0.0.0
 ENV PORT=3000
