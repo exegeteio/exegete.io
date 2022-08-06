@@ -8,7 +8,18 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url  }}" media="all" />
     <link rel="stylesheet" href="{{ '/css/font.css' | relative_url  }}" media="all" defer />
-    <title>Exegete.io | {{ page.title }}</title>
+
+    <title>{{ page.title }} | Exegete.io</title>
+
+    <link rel="alternate" type="application/atom+xml" title="Exegete feed" href="https://exegete.io/feed.xml"/>
+    <link type="application/atom+xml" rel="alternate" href="https://exegete.io/feed.xml" title="Exegete feed" />
+
+    <meta name="twitter:title" content="{{ page.title }} | Exegete.io">
+    <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncatewords: 25 }}">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://exegete.io/assets/images/twitter.png">
+    <meta name="twitter:image:alt" content="Exegete">
   </head>
 
   <body class="{{ page.class }}">

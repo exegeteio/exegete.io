@@ -27,6 +27,7 @@ url: "https://exegete.io" # the base hostname & protocol for your site, e.g. htt
 twitter_username: exegeteio
 github_username: exegeteio
 permalink: /:year/:month/:day/:title/
+page_excerpts: true
 
 # Build settings
 # theme: minima
