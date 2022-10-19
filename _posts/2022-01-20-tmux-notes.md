@@ -41,5 +41,6 @@ through:
   - Hit <kbd>Space</kbd> to turn on highlighting.  Highlight some text and hit <kbd>Enter</kbd> to
       copy.  Use <kbd>]</kbd> to paste.
   - Hit <kbd>m</kbd> to mark a pane.
+    - Hit <kbd>M</kbd> to un-mark a pane.
     - Send keys to marked pane with: `tmux send-keys -t'{marked}' "echo foo" Enter`
 
