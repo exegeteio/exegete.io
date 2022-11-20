@@ -3,7 +3,6 @@ layout: default
 title: Running Pihole on Ubuntu
 tags:
   - cli
-  - tools
   - network
 ---
 
