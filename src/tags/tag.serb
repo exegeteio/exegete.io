@@ -1,0 +1,23 @@
+---
+layout: default
+title: ":prototype-term"
+permalink: /tag/:term
+prototype:
+  collection: posts
+  term: tag
+paginate:
+  collection: posts
+---
+
+Below is a list of micro-blogs tagged with "{{ page.data.tag }}".
+
+<ul>
+  {% paginator.resources.sort_by(&:date).reverse.each do |post| %}
+    <li>
+      <a href="{{ post.relative_url }}">
+        {{ post.data.title }}
+      </a>
+      - {{ post.date.to_date }}
+    </li>
+  {% end %}
+</ul>

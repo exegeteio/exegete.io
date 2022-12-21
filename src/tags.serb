@@ -1,0 +1,21 @@
+---
+layout: default
+title: Notes!
+permalink: /tags/
+---
+
+<p>
+  As a part of my personal note-taking, I started writing Jekyll posts and tagging them.  Below are
+  the tags.  I consider each of these to be micro-blogs.  Don't expect too much
+  content in each.
+</p>
+
+<ul>
+  {% site.tags.sort_by(&:first).each do |tag| %}
+    <li class="site-tag">
+      <a href="/tag/{{ tag | first | slugify }}/">
+        {{ tag[0].sub('-', ' ').titleize }} ({{ tag.last.size }})
+      </a>
+    </li>
+  {% end %}
+</ul>

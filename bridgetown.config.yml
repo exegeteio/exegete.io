@@ -29,6 +29,6 @@ template_engine: serbea
 # If you're using esbuild for frontend assets, edit `esbuild.config.js` to
 # update `publicPath`.
 
-# timezone: America/Los_Angeles
-# pagination:
-#   enabled: true
+timezone: America/Phoenix
+pagination:
+  enabled: true

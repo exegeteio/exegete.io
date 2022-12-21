@@ -59,3 +59,13 @@ footer {
   padding-top: 1rem;
   text-align: center;
 }
+
+.paginator {
+  display: flex;
+  border-top: 1px solid;
+  margin-top: 1rem;
+}
+
+.paginator a.next {
+  margin-left: auto;
+}
