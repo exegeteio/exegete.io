@@ -1,5 +1,5 @@
 <header>
-  <h1>{{ resource.data.title }}</h1>
+  <h1>{{ @resource.data.title }}</h1>
   <nav role="primary">
     <a href="{{ '/' | relative_url }}">Home</a>
     <a href="{{ '/tags/' | relative_url }}">Notes</a>

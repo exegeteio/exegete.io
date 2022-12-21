@@ -1,0 +1,282 @@
+---
+layout: default
+title: Equipment Setup
+description: Equipment Setup
+permalink: /equip/
+---
+
+<section title="software">
+  <h2>Software</h2>
+  <p>
+    I've done almost all of my development work on a Mac since OSX came out.  MacOS is, to me, what
+    desktop Linux has been trying to be.  Almost everything works without drivers install, or kernel
+    re-compiles.  OS / Hardware, however, is as individual as clothing brands.  Find what works for
+    you.
+  </p>
+  <ul>
+    <li>
+      <a href="https://www.alfredapp.com/" target="_blank">Alfred</a>
+      <em> - </em>
+      All around great application launcher and shortcut tool for MacOS.
+    </li>
+    <li>
+      <a href="https://getfirefox.com" target="_blank">Firefox</a>
+      <em> - </em>
+      The browser I've found to be the most consistently good.  Privacy, memory footprint, speed,
+      standards implementations, and syncing.
+    </li>
+    <li>
+      <a href="https://rectangleapp.com/" target="_blank">Rectangle</a>
+      <em> - </em>
+      Keyboard-based window-management for MacOS.  Supports thirds of a monitor, which is important
+      for my workflow on an ultra-wide monitor.
+    </li>
+    <li>
+      <a href="https://www.vim.org/" target="_blank">vim</a>
+      <em> - </em>
+      Old-school, works everywhere (even on remote servers) editor.  I try to keep vim fairly plain,
+      without many extensions, instead prefering to use the OS to do the work for me.
+      See
+      <a href="https://github.com/exegeteio/dotfiles/blob/main/vimrc#L4" target="_blank">my .vimrc</a>
+      in my dotfiles for more.
+    </li>
+    <li>
+      <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>
+      <em> - </em>
+      Graphical editor with support for many languages and frameworks.  Extensions for just about
+      everything.  See
+      <a href="https://github.com/exegeteio/dotfiles/blob/main/vscode/extensions" target="_blank">my extensions</a>
+      in my dotfiles.
+    </li>
+    <li>
+      <a href="https://iterm2.com/" target="_blank">
+        iTerm2
+      </a>
+      <em> - </em>
+      Terminal emulator you see on stream.  The MacOS Terminal app is pretty good, but I prefer the
+      minimal window chrome setup I have in iTerm.
+    </li>
+    <li>
+      <a href="https://github.com/tmux/tmux" target="_blank">
+        tmux
+      </a>
+      <em> - </em>
+      The tiling window manager for your terminal.  This is how I split my terminal into multiple
+      windows.
+    </li>
+    <li>
+      Containers /
+      <a href="https://www.docker.com/" target="_blank">Docker</a>
+      <em> - </em>
+      Containers are a revelation for Ops.  Having consistent, reproducable, customizable, builds
+      to ship to servers is not an easy thing to accomplish, but containers help make it happen.
+      Docker was the first major company to profitize containers, for which they get kudos.
+      I'm currently enjoying using
+      <a href="https://rancherdesktop.io/" target="_blank">Rancher Desktop</a>
+      instead of Docker Desktop.
+    </li>
+  </ul>
+</section>
+
+<section title="physical space">
+  <h2>Physical Space</h2>
+  <p>
+    Physical space is more and more important to me as I get older and older.  Learn from my
+    mistakes, invest in a good workspace as soon as you're able.  Take care of your body, you only
+    get one.
+  </p>
+  <ul>
+    <li>
+      <a href="https://www.fully.com/standing-desks/jarvis/jarvis-techwood-standing-desk.html" target="_blank">
+        Jarvis Sit/Stand Desk
+      </a>
+      with the extra-tall legs.   2m (6 foot) width, 90cm (36 inch) deep.  Includes a Fully-brand
+      clamp-on power strip, and two pole-style monitor stands (arm-style kept drooping with my
+      monitors).
+    </li>
+    <li>
+      <a href="https://www.zsa.io/moonlander/" target="_blank">
+        ZSA Moonlander
+      </a>
+      keyboard.  I love fully-split keyboards.  They helped correct pain I was having in my
+      shoulders and upper back.  Took a <b>lot</b> of getting used to.  YMMV
+    </li>
+    <li>
+      <a href="https://www.logitech.com/en-us/products/mice/mx-ergo-wireless-trackball-mouse.910-005178.html" target="_blank">
+        Logitech MX Ergo
+      </a>
+      Trackball.  I find myself using the mouse as little as possible, but when I do need it, I find
+      the trackball lowers strain on my wrist.
+    </li>
+    <li>
+      <a href="https://www.logitechg.com/en-us/products/gaming-mice/pro-wireless-mouse.910-005270.html" target="_blank">
+        Logitech G Pro
+      </a>
+      mouse.  This is the lightest-weight wireless mouse I've ever handled. Comfortable, simple, and
+      the low weight means less stress on my wrist.  Only used for gaming.
+    </li>
+    <li>
+      <a href="https://www.hermanmiller.com/products/seating/office-chairs/aeron-chairs/" target="_blank">
+        Herman Miller Aeron
+      </a>
+      chair.  I've had this chair for almost 10 years.  Most comfortable office chair I've ever sat
+      in.
+    </li>
+    <li>
+      <a href="https://www.fully.com/accessories/standing-desk-mats/topo-standing-mat.html" target="_blank">
+        Fully Topo
+      </a>
+      standing mat.
+    </li>
+  </ul>
+</section>
+
+<section title="computers">
+  <h2>Computers</h2>
+  <p>
+    I like the Apple hardware I've had over the years.  From my first Blueberry iBook, to the 16"
+    Intel Macbook Pro I use every day.  This is a <em>very</em> personal choice, however.
+    Over the years, I've used Linux, Windows, and BSD, for workstations.
+  </p>
+  <p>
+    People often complain about the "Apple Tax".  My rebuttal is:  I have
+    yet to find a spec-for-spec comparison (including physical enclosure, touchpad, etc), where a
+    Mac came out to be much more expensive.  Yes, you can get a Dell with a flimsy plastic enclosure
+    and a 3-generation-old CPU for 75% of the cost of a Mac.  I'll take the whole package.
+  </p>
+  <ul>
+    <li>
+      16" Intel Macbook Pro (MBP).  Mobile development.  I love sitting in a coffee shop, or go to
+      lunch, to work on difficult problems.
+      Not going to lie, I tried to get an M1 Max Macbook Pro, but the delays in shipping means I'm
+      using this for the foreseeable future.
+    </li>
+    <li>
+      2022 Mac Studio (M1 Max).  When I couldn't get the M1 MBP, got this instead.  Incredibly
+      fast in every task I've asked it to perform.  What blew me away most was the performance of
+      Docker.  Normally Docker on a Mac is rather slow, but not on the M1.
+    </li>
+    <li>
+      MSI GS66 Stealth.  Thin and light gaming laptop.  My gaming is split between my office, and
+      hanging out with the family in the living room.  This laptop accomplishes that task, as well
+      as handling streaming duties, for Twitch.
+    </li>
+    <li>
+      Various servers with Mac Mini's, Raspberry Pi's, and old laptops-become-servers.
+    </li>
+  </ul>
+</section>
+
+<section title="monitors">
+  <h2>Monitors</h2>
+  <p>
+    I picked up an ultra-wide monitor for gaming, and found an boost to my productivity.  I tend to
+    work in thirds of a screen now, and find that the layout really works for me.
+  </p>
+  <p>
+    While I'm not a fan of Alienware's computers, or their business practices (prior to Dell, at
+    least), I find their monitors to be as high quality as Dell's business-class monitors.
+  </p>
+  <ul>
+    <li>
+      <a href="https://www.newegg.com/p/N82E16824260555" target="_blank">
+        Alienware AW3418DW 34" Ultra-wide
+      </a>
+      <em> - </em>
+      3440 x 1440 @ 120hz.
+    </li>
+    <li>
+      <a href="https://www.newegg.com/dell-25/p/2NY-0010-00042" target="_blank">
+        Alienware AW2521HF 25"
+      </a>
+      <em> - </em>
+      Nice gaming monitor, in portrait orientation.  I find the 25" compliments most other
+      primary-monitor sizes.
+    </li>
+  </ul>
+</section>
+
+<section title="accessories">
+  <h2>Accessories</h2>
+  <p>
+    Hold on to your butts...
+  </p>
+  <ul>
+    <li>
+      <a href="https://en-us.sennheiser.com/audio-headphones-high-end-surround-sound-hd-598" target="_blank">
+        Sennheiser HD598
+      </a>
+      open-back headphones.  Great sound quality, open-back to let your ears breath, and very
+      comfortable.  Having a child, good headphones became very important to me a couple years ago.
+      😈  Plugged up to a cheap USB headphone amp.
+    </li>
+    <li>
+      <a href="https://www.apple.com/airpods-3rd-generation/" target="_blank">
+        Apple Airpods
+      </a>
+      headphones.  All-day comfortable, super portable, and don't shut out the entire world.  Great
+      for meetings, streaming, or gaming on the Switch (with a 
+      <a href="https://www.twelvesouth.com/products/airfly" target="_blank">12south Airfly</a>).
+    </li>
+    <li>
+      <a href="https://www.klipsch.com/products/klipsch-promedia-2-1-thx-certified-computer-speaker" target="_blank">
+        Klipsch Promedia 2.1
+      </a>
+      speakers.  I've had these speakers for almost 20 years, and have yet to find a compact speaker
+      system with the same quality and power for the price.  Under-used.  👶
+    </li>
+    <li>
+      <a href="https://www.razer.com/gb-en/gaming-egpus/razer-core-x" target="_blank">
+        Razer Core X Chroma
+      </a>
+      eGPU.  Used to swap monitors to/from various computers.  My MBP, the MSI, and my work machine
+      can all share the same monitors, and 4 USB devices, with a single cable.   Card is an AMD
+      Radeon 5700XT.
+    </li>
+    <li>
+      Random other USB hubs (Anker), USB Chargers (I really like Apple's), desk/fidget toys,
+      old-school arm-lamps, and other paraphernalia I can't think of at the moment.
+    </li>
+  </ul>
+</section>
+
+<section title="streaming">
+  <h2>Streaming</h2>
+  <p>
+    In addition to my normal work setup, I have dedicated equipment for streaming dev work to
+    <a href="https://twitcht.tv/exegeteio" target="_blank">Twitch</a>.
+  </p>
+  <ul>
+    <li>
+      <a href="https://www.elgato.com/en/facecam" target="_blank">
+        Elgato Facecam
+      </a>
+      A solid, high resolution, camera.  Huge upgrade from a normal office camera.
+    </li>
+    <li>
+      <a href="https://www.elgato.com/en/stream-deck-mk2" target="_blank">
+        Elgato Stream Deck
+      </a>
+      for controlling the MSI while streaming.
+    </li>
+    <li>
+      <a href="https://www.elgato.com/en/game-capture-hd60-x" target="_blank">
+        Elgato HD60 X
+      </a>
+      capture card for capturing output from the Mac Studio to the MSI for streaming.
+    </li>
+    <li>
+      <a href="https://www.bluemic.com/en-us/products/yeti/" target="_blank">
+        Blue Yeti
+      </a>
+      mic.  USB, good quality by my ear.
+    </li>
+    <li>
+      <a href="https://obsproject.com/" target="_blank">
+        OBS Studio
+      </a>
+      app, the go-to open source software for streaming video and audio.  Constantly being tweaked,
+      like any streamer.
+    </li>
+  </ul>
+</section>
