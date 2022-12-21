@@ -1,11 +1,20 @@
 <header>
-  <img src="{{ '/images/logo.svg' | relative_url }}" alt="Logo" />
+  <h1>{{ resource.data.title }}</h1>
+  <nav role="primary">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/tags/' | relative_url }}">Notes</a>
+    <a href="{{ '/equip/' | relative_url }}">Equipment</a>
+  </nav>
+  <nav role="secondary" class="small">
+    <a href="https://twitter.com/exegeteio">
+      Twitter
+    </a>
+    <a href="https://github.com/exegeteio">
+      Github
+    </a>
+    <a href="https://twitch.tv/exegeteio" target="_blank">
+      Twitch
+    </a>
+  </nav>
 </header>
 
-<nav>
-  <ul>
-    <li><a href="{{ '/' | relative_url }}">Home</a></li>
-    <li><a href="{{ '/about' | relative_url }}">About</a></li>
-    <li><a href="{{ '/posts' | relative_url }}">Posts</a></li>
-  </ul>
-</nav>

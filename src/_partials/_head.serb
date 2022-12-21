@@ -1,9 +1,17 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 {{ title | strip_html | strip_newlines | assign_to: :resource_title }}
-<title>{% if @resource_title != "Index" %}{{ @resource_title }} | {{ metadata.title }}{% else %}{{ metadata.title }}: {{ metadata.tagline }}{% end %}</title>
+<title>{{ @resource_title }} | Exegete.io</title>
 
-<meta name="description" content="{%= metadata.description %}" />
+<link rel="alternate" type="application/atom+xml" title="Exegete feed" href="https://exegete.io/feed.xml"/>
+<link type="application/atom+xml" rel="alternate" href="https://exegete.io/feed.xml" title="Exegete feed" />
+
+<meta name="description" content="{%= resource.data.description %}" />
+<meta name="twitter:title" content="{{ @resource_title }} | Exegete.io">
+<meta name="twitter:description" content="{{ resource.data.description }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://exegete.io/assets/images/twitter.png">
+<meta name="twitter:image:alt" content="Exegete">
 
 <link rel="stylesheet" href="{%= webpack_path :css %}" />
 <script src="{%= webpack_path :js %}" defer></script>

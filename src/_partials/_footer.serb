@@ -1,3 +1,10 @@
 <footer>
-  Contact me at <a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a>
+  &copy; 2019 - Time.now()
+  <span class="divider"></span>
+  <a href="mailto:fabled-image-0i@icloud.com?subject=exegete.io - Contact" title="Email Exegete" rel="noopener">
+    Contact
+  </a>
+  <section title="Attribution" class="small">
+    CSS from
+    <a href="https://simplecss.org/" alt="Simple CSS Website">Simple CSS</a>
 </footer>

@@ -1,84 +1,61 @@
-:root {
-  --body-background: #f2f2f2;
-  --body-color: #444;
-  --heading-color: black;
-  --action-color: #d64045;
-}
-
+/* Main styles. */
 body {
-  background: var(--body-background);
-  color: var(--body-color);
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    "Helvetica", "Arial", sans-serif;
-  margin: 0 8px;
-  font-size: 108%;
-  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-display: swap;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2rem;
 }
 
-a {
-  color: var(--action-color);
-  text-decoration: underline;
-  text-decoration-color: #ffb088;
+header,
+h1,
+footer {
+  font-display: swap;
+  font-family: "press-start"
 }
 
-h1 {
-  margin: 1rem 0 3rem;
-  text-align: center;
-  font-weight: 900;
-  font-size: 2.5rem;
-  color: var(--heading-color);
-  line-height: 1.2;
+footer section {
+  margin-top: 0.5rem;
 }
 
-body > header {
-  margin: 1rem;
+h1,
+h2,
+h3,
+.centered {
   text-align: center;
 }
 
-body > header img {
-  display: inline-block;
-  width: 400px;
-  max-width: 100%;
+section.skills {
+  margin-left: 1rem;
 }
 
-body > nav ul {
-  margin: 2rem 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  font-size: 1.3rem;
-  font-weight: bold;
+section.role h3 span {
+  display: block;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: initial;
 }
 
-body > nav a {
-  text-decoration: none;
+article .experience h2 span {
+  display: block;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: initial;
 }
 
-main {
-  margin: 2rem auto 4rem;
-  max-width: 65rem;
-  min-height: calc(100vh - 200px);
-  padding: 25px 25px 50px;
-  background: white;
-  box-shadow: 2px 3px 3px #ddd;
-  border-radius: 3px;
-
-  @media (max-width: 500px) {
-    padding: 16px 16px 50px;
-  }
+ul,
+ol {
+  padding-inline-start: 1rem;
+  margin-left: 1rem;
 }
 
 footer {
+  border-image-slice: 1;
+  border-image-source: linear-gradient(90deg, #ccc, #108de0, #ccc);
+  border-top: 1px solid;
+  border: 0;
+  font-size: 0.75rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
   text-align: center;
-  margin-bottom: 4rem;
-  font-size: 1em;
-}
-
-hr {
-  border: none;
-  border-top: 2px dotted #bbb;
-  margin: 3rem 0;
 }
