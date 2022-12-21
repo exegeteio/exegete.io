@@ -1,0 +1,54 @@
+---
+layout: default
+title: About
+description: Who is Exegete?  What do they do?
+excerpt: Who is Exegete?  What do they do?
+---
+
+<section title="about">
+  <h2>About</h2>
+  <p>
+    I've enjoyed exploring programming puzzles since I started learning C and
+    C++ in high school. After graduating, I began using Bash to automate my home
+    network, and writing interactive chat bots in Perl. I was hooked. While
+    writing software for bottled-water delivery, I created my first dynamic web
+    app and have been drawn to the web ever since.
+  </p>
+  <p>
+    Outside of work, I still find myself drawn to development. I try to learn a
+    new language or framework every year. The exposure to different approaches
+    has helped me immensely in work and personal applications, regardless of language.
+  </p>
+  <p>
+    When not at the computer, I'm a father, motorcyclist, and bicyclist. Living
+    in Flagstaff, AZ, there is no-end to outdoor adventures to share with my
+    family.
+  </p>
+</section>
+
+{% site.data.experience&.each do |exp| %}
+  <article class="experience">
+    <h2>
+      {{exp.title}} - {{exp.location}}
+      <span>({{exp.timeframe}})</span>
+    </h2>
+    <section>{{ exp.description | markdownify }}</section>
+
+    {% exp.roles&.each do |role| %}
+    <section class="role">
+      <h3>{{role.title}} <span>{{role.timeframe}}</span></h3>
+      <section class="experience">{{ role.description | markdownify }}</section>
+      {% if role.skills %}
+      <section class="skills">
+        <h4>Skills</h4>
+        <ul>
+          {% role.skills&.each do |skill| %}
+          <li>{{skill.name}} - {{skill.experience}}</li>
+          {% end %}
+        </ul>
+      </section>
+      {% end %}
+    </section>
+    {% end %}
+  </article>
+{% end %}
