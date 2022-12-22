@@ -3,8 +3,7 @@
 {{ title | strip_html | strip_newlines | assign_to: :resource_title }}
 <title>{{ @resource_title }} | Exegete.io</title>
 
-<link rel="alternate" type="application/atom+xml" title="Exegete feed" href="https://exegete.io/feed.xml"/>
-<link type="application/atom+xml" rel="alternate" href="https://exegete.io/feed.xml" title="Exegete feed" />
+{%= feed_meta %}
 
 <meta name="description" content="{%= resource.data.description %}" />
 <meta name="twitter:title" content="{{ @resource_title }} | Exegete.io">
