@@ -6,14 +6,17 @@
     <a href="{{ '/equip/' | relative_url }}">Equipment</a>
   </nav>
   <nav role="secondary" class="small">
-    <a href="https://twitter.com/exegeteio">
-      Twitter
-    </a>
-    <a href="https://github.com/exegeteio">
+    <a href="https://github.com/exegeteio" target="_blank">
       Github
     </a>
     <a href="https://twitch.tv/exegeteio" target="_blank">
       Twitch
+    </a>
+    <a href="https://twitter.com/exegeteio" target="_blank">
+      Twitter
+    </a>
+    <a href="https://ruby.social/@exegeteio" target="_blank">
+      Mastadon
     </a>
   </nav>
 </header>
