@@ -9,7 +9,8 @@ tags:
 Some days I ponder if software development is akin to an entire team of people working on the same
 art piece, all at the same time.
 
-Listened to this keynote yesterday, after an episode of the Remote Ruby podcast.  One of the things
+This stems from listening to [this keynote](https://youtu.be/rI8tNMsozo0) yesterday, after an episode of the
+[Remote Ruby](https://remoteruby.com/216) podcast.  One of the things
 which stood out to me, was Hickey’s suggestion to stick to standard data structures.  Much of the
 time, I would agree with using the language built ins before creating a class, but the flip side of
 that coin is you do not know how much scrutiny that data has undergone.
