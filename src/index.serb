@@ -39,14 +39,12 @@ excerpt: Who is Exegete?  What do they do?
       <h3>{{role.title}} <span>{{role.timeframe}}</span></h3>
       <section class="experience">{{ role.description | markdownify }}</section>
       {% if role.skills %}
-      <section class="skills">
         <h4>Skills</h4>
         <ul>
           {% role.skills&.each do |skill| %}
           <li>{{skill.name}} - {{skill.experience}}</li>
           {% end %}
         </ul>
-      </section>
       {% end %}
     </section>
     {% end %}
