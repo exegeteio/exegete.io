@@ -30,7 +30,7 @@ excerpt: Who is Exegete?  What do they do?
   <article class="experience">
     <h2>
       {{exp.title}} - {{exp.location}}
-      <span>({{exp.timeframe}})</span>
+      <span>{{exp.timeframe}}</span>
     </h2>
     <section>{{ exp.description | markdownify }}</section>
 
