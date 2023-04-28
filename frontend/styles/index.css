@@ -27,7 +27,8 @@ section.skills {
   margin-left: 1rem;
 }
 
-section.role h3 span {
+section.role h3 span,
+section.role h2 span {
   display: block;
   font-size: 0.8rem;
   font-style: italic;
