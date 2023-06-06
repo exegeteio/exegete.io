@@ -42,3 +42,8 @@
   for = "/*.(png|jpg|js|css|svg|woff|ttf|eot|ico|woff2)"
   [headers.values]
     Cache-Control = "public, max-age=31536000, s-max-age=31536000"
+
+[[redirects]]
+  from = "/install.sh"
+  to = "https://raw.githubusercontent.com/exegeteio/dotfiles/main/install.sh"
+  status = 301
