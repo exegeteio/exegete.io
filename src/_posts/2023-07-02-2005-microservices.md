@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2005-microservices.md
+title: Microservices Circa 2005
 tags:
   - docker
   - silly
@@ -8,6 +8,7 @@ tags:
   - go
   - rust
   - perl
+  - apache
 ---
 
 I recently watched a
@@ -37,7 +38,7 @@ technology, so how did I build out services and frontends without modern
 ## What was built
 
 The core app was a Perl monolith, using
-[HTML::Mason](https://metacpan.org/pod/HTML::Mason)
+[Mason](https://metacpan.org/pod/HTML::Mason)
 templates, and the
 [Prototype](http://prototypejs.org/)
 Javascript "framework", but had several microservices tacked on:
@@ -81,7 +82,7 @@ On a single-core, $4/mo, Digital Ocean droplet:
 
 #### Single User
 
-            | min | mean | [+/-sd] | median | max
+Metric      | min | mean | [+/-sd] | median | max
 ------------|----:|-----:|--------:|-------:|---:
 Connect:    |   0 |    0 |     0.0 |      0 |   3
 Processing: |  19 |   22 |     2.1 |     21 | 104
@@ -90,7 +91,7 @@ Total:      |  19 |   22 |     2.1 |     21 | 104
 
 #### 5-Users
 
-            | min | mean | [+/-sd] | median | max
+Metric      | min | mean | [+/-sd] | median | max
 ------------|----:|-----:|--------:|-------:|---:
 Connect:    |   0 |    0 |     0.1 |      0 |   4
 Processing: |  23 |   61 |     8.0 |     61 | 199
@@ -99,7 +100,7 @@ Total:      |  23 |   61 |     8.0 |     61 | 199
 
 #### 25-Users
 
-            | min | mean | [+/-sd] | median | max
+Metric      | min | mean | [+/-sd] | median | max
 ------------|----:|-----:|--------:|-------:|---:
 Connect:    |   0 |    0 |   0.1   |      0 |   5
 Processing: | 204 |  351 |  49.5   |    354 | 901
@@ -116,21 +117,25 @@ On a four-core, $48/mo, Digital Ocean droplet:
 
 #### Single Users
 
-            | min | mean | [+/-sd] | median | max
+Metric      | min | mean | [+/-sd] | median | max
 ------------|----:|-----:|--------:|-------:|---:
+Connect:    |   0 |    0 | 0.0     |      0 |   3
+Processing: |   9 |   20 | 5.0     |     21 |  75
+Waiting:    |   2 |    3 | 1.0     |      3 |  42
+Total:      |   9 |   20 | 5.0     |     21 |  75
 
 #### 5-Users
 
-            | min | mean | [+/-sd] | median | max
+Metric      | min | mean | [+/-sd] | median | max
 ------------|----:|-----:|--------:|-------:|---:
-Connect:    |   0 |    0 |     0.0 |      0 |  2
-Processing: |   9 |   17 |     5.3 |     15 | 54
-Waiting:    |   2 |    4 |     1.5 |      3 | 24
-Total:      |   9 |   17 |     5.3 |     15 | 54
+Connect:    |   0 |    0 |     0.0 |      0 |   2
+Processing: |   9 |   17 |     5.3 |     15 |  54
+Waiting:    |   2 |    4 |     1.5 |      3 |  24
+Total:      |   9 |   17 |     5.3 |     15 |  54
 
 #### 25-Users
 
-            | min | mean | [+/-sd] | median | max
+Metric      | min | mean | [+/-sd] | median | max
 ------------|----:|-----:|--------:|-------:|---:
 Connect:    |   0 |    0 |     0.0 |      0 |   4
 Processing: |  30 |   70 |    10.8 |     69 | 184
