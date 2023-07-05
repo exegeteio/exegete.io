@@ -32,7 +32,7 @@ technology, so how did I build out services and frontends without modern
 - Nearly-instant cold-boot times.
 - Language agnostic.
 - Interface [standardized](https://www.w3.org/CGI/) in 1995.
-- Each app is independently deployable.
+- Each app is was deployed independently.
   - Not exhibited in the sample app.
 
 ## What was built
@@ -64,9 +64,9 @@ the page.
 
 I put together a dead-simple
 [sample application](https://github.com/exegeteio/apache-microservices)
-to demostrate the approach and benchmark execution.  This consists of four
+to demonstrate the approach and benchmark execution.  This consists of four
 "services" (they're "hello world" levels of complexity), written in Bash, Go,
-Perl, and Rust, and compisited into a single page.  This means that each page
+Perl, and Rust, and composited into a single page.  This means that each page
 load in the data below includes a call to four microservices.
 
 ## Performance
