@@ -1,6 +1,7 @@
 [build]
   command = "bin/bridgetown deploy && bin/netlify.sh"
   publish = "output"
+  functions = "netlify/functions"
 
 [build.environment]
   NODE_ENV = "development"
@@ -47,3 +48,8 @@
   from = "/install.sh"
   to = "https://raw.githubusercontent.com/exegeteio/dotfiles/main/install.sh"
   status = 301
+
+[[redirects]]
+  from = "/whoami"
+  to = "/.netlify/functions/whoami"
+  status = 200
