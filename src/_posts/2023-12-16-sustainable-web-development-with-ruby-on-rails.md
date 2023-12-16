@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sustainable Web Development with Ruby on Rails.md
+title: Sustainable Web Development w/ Ruby on Rails
 tags:
   - ruby
   - rails
