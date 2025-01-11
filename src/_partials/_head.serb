@@ -1,15 +1,15 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 {{ title | strip_html | strip_newlines | assign_to: :resource_title }}
-<title>{{ @resource_title }} | Exegete.io</title>
+<title>{{ @resource_title }} | Exegete.net</title>
 
 {%= feed_meta %}
 
 <meta name="description" content="{%= resource.data.description %}" />
-<meta name="twitter:title" content="{{ @resource_title }} | Exegete.io">
+<meta name="twitter:title" content="{{ @resource_title }} | Exegete.net">
 <meta name="twitter:description" content="{{ resource.data.description }}">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://exegete.io/assets/images/twitter.png">
+<meta name="twitter:image" content="https://exegete.net/assets/images/twitter.png">
 <meta name="twitter:image:alt" content="Exegete">
 
 <link rel="stylesheet" href="{%= webpack_path :css %}" />
