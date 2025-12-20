@@ -2,6 +2,9 @@
   "name": "exegete.net",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "25.x"
+  },
   "scripts": {
     "esbuild": "node esbuild.config.js --minify",
     "esbuild-dev": "node esbuild.config.js --watch"
